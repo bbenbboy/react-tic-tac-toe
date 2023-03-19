@@ -1,0 +1,40 @@
+:root {
+  --lavender-pink: #ffc4ebff;
+  --pale-purple: #ffe4faff;
+  --misty-rose: #f1dedcff;
+  --pearl: #e1dabdff;
+  --olivine: #abc798ff;
+}
+
+body {
+  display: grid;
+  background-color: var(--lavender-pink);
+  place-items: center;
+  align-items: center;
+  font-family: "Rubik", sans-serif;
+}
+.container {
+  margin-top: 10vh;
+  padding: 30px;
+  background-color: white;
+
+  border-radius: 20px;
+}
+
+.status {
+  font-weight: 500;
+  font-size: 1.5rem;
+  margin: 20px auto;
+}
+
+.square {
+  margin: 5px;
+  height: 100px;
+  width: 100px;
+  border-style: none;
+  border-radius: 20px;
+}
+button {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
